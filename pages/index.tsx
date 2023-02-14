@@ -47,7 +47,7 @@ const Home: NextPage = () => {
 
       </nav>
       <main className='p-8 container mx-auto'>
-      <div className="grid grid-cols-1 gap-10 items-center sm:grid-cols-2 ">
+      <div className="grid grid-cols-1 gap-10 items-center justify-between sm:grid-cols-2 ">
         <img className = "justify-center w-96 rounded-full   my-7 "src="/2.jpg" alt="" />
   
         <div className='text-center m-2 '>Iam Shivam Konkar and Iam software developer :🧑‍💻</div>
