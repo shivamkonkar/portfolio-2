@@ -2,12 +2,49 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import img from '../public/2.jpg'
+import { useTheme } from 'next-themes';
+import { useState, useEffect } from 'react';
+
 
 const Home: NextPage = () => {
+
+  const { systemTheme, theme, setTheme } = useTheme();
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return null;
+  const currentTheme = theme === 'system' ? systemTheme : theme;
+
+
   return (
     <div className="Parent">
-      <nav className='shadow-lg sticky top-0 bg-white'>
-        <h1 className="logo"> 🚀  Shivam's Portfolio</h1>
+      <nav className='j shadow-lg sticky top-0 bg-white dark:bg-black dark:text-white dark:bg-none flex justify-between items-center'>
+        <h1 className="logo "> 🚀  Shivam's Portfolio</h1>
+
+        <div className="m-2 ">
+
+
+        {currentTheme === 'dark' ? (
+            <button
+              className="bg-black-700 hover:bg-black w-14 h-14 rounded-full border-purple-400 border-2 p-4"
+              onClick={() => setTheme('light')}
+            >
+              {' '}
+              <Image  src="https://raw.githubusercontent.com/vlahou89/dark-mode-nextjs-tailwind/606e51ae09fc23022662839cfcfaba996350fff9/public/sun.svg" width={"30"} height={"30"} alt="logo" />
+            </button>
+          ) : (
+            <button
+              className="bg-gray-100 w-14 h-14 rounded-full border-purple-400 border-2 p-4 hover:bg-gray-300"
+              onClick={() => setTheme('dark')}
+            >
+              <Image  src="https://raw.githubusercontent.com/vlahou89/dark-mode-nextjs-tailwind/606e51ae09fc23022662839cfcfaba996350fff9/public/moon.svg" width={"30"} height={"30"} alt="logo" />
+            </button>
+          )}
+          </div>
+
       </nav>
       <main className='p-8 container mx-auto'>
       <div className="grid grid-cols-1 gap-10 items-center sm:grid-cols-2 ">
@@ -16,7 +53,7 @@ const Home: NextPage = () => {
         <div className='text-center m-2 '>Iam Shivam Konkar and Iam software developer :🧑‍💻</div>
       </div>
 
-      <div className="container mx-auto bg-slate-500 pt-3 pb-6 rounded-lg  font-semibold text-white">
+      <div className="container mx-auto bg-slate-500 pt-3 pb-6 rounded-lg text-xl font-semibold text-white dark:bg-purple-700 dark:text-black">
         <h2 className='text-center m-2 p-2 '>Technologies I can use</h2>
         <div className='technologies grid grid-cols-2 gap-10 items-center sm:grid-cols-3 '>
           <div className="javascript border border-white rounded-lg justify-self-center">
