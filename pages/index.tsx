@@ -49,8 +49,28 @@ const Home: NextPage = () => {
       <main className='p-8 container mx-auto'>
       <div className="grid grid-cols-1 gap-10 items-center justify-between sm:grid-cols-2 ">
         <img className = "justify-center w-96 rounded-full   my-7 "src="/2.jpg" alt="" />
-  
+
+        <div>
         <div className='text-center m-2 '>Iam Shivam Konkar and Iam software developer :🧑‍💻</div>
+        <div className="grid grid-cols-2 gap-1 w-24 mx-auto my-7">
+            <a href="https://in.linkedin.com/in/shivam-konkar-96316a1b3">
+              <img className='border border-black rounded-lg justify-self-center dark:border-white' src="https://img.icons8.com/color/48/null/linkedin.png" alt=''/>
+            </a>
+
+            <a href="https://github.com/shivamkonkar">
+              <img className='border border-black rounded-lg justify-self-center dark:border-white' src="https://img.icons8.com/color-glass/48/null/github--v1.png" alt=''/>
+            </a>
+
+            <a href="https://www.instagram.com/bored_asf2023/?next=%2F">
+              <img className='border border-black rounded-lg justify-self-center dark:border-white' src="https://img.icons8.com/fluency/48/null/instagram-new.png" alt=''/>
+            </a>
+
+            <a href="https://twitter.com/ShivamKonkar">
+              <img className='border border-black rounded-lg justify-self-center dark:border-white' src="https://img.icons8.com/color/48/null/twitter--v1.png" alt=''/>
+            </a>
+
+          </div>
+          </div>
       </div>
 
       <div className="container mx-auto bg-slate-500 pt-3 pb-6 rounded-lg text-xl font-semibold text-white dark:bg-purple-700 dark:text-black">
