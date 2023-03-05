@@ -95,6 +95,42 @@ const Home: NextPage = () => {
       
         
       </main>
+              <section className="text-gray-600 body-font ">
+    <div className="container px-5 py-24 mx-auto">
+      <div className="flex flex-col text-center w-full mb-12">
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 dark:text-purple-400">Contact Us</h1>
+        
+      </div>
+      <div className="lg:w-1/2 md:w-2/3 mx-auto">
+        <form action="https://formspree.io/f/mqkobwgv" method="post">
+        <div className="flex flex-wrap -m-2">
+          <div className="p-2 w-1/2">
+            <div className="">
+              <label htmlFor="name" className="leading-7 text-sm text-gray-600 dark:text-purple-400">Name</label>
+              <input type="text" id="name" name="name" className="w-full bg-gray-100 dark:bg-[#121212] dark:focus:bg-slate-900 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 dark:text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" wtx-context="78CD4E24-5D56-413E-8068-87BDC02576E5"/>
+            </div>
+          </div>
+          <div className="p-2 w-1/2">
+            <div className="">
+              <label htmlFor="email" className="leading-7 text-sm text-gray-600 dark:text-purple-400">Email</label>
+              <input type="email" id="email" name="email" className="w-full bg-gray-100 dark:bg-[#121212] dark:focus:bg-slate-900 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 dark:text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" wtx-context="E6B2C260-E36D-4131-8583-3334B0E4E897"/>
+            </div>
+          </div>
+          <div className="p-2 w-full">
+            <div className="">
+              <label htmlFor="message" className="leading-7 text-sm text-gray-600 dark:text-purple-400">Message</label>
+              <textarea id="message" name="message" className="w-full bg-gray-100 dark:bg-[#121212] dark:focus:bg-slate-900 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 dark:text-white py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+            </div>
+          </div>
+          <div className="p-2 w-full">
+            <button type="submit" className="flex mx-auto text-white dark:bg-purple-600 bg-[#121212] border-0 py-2 px-8 focus:outline-none hover:bg-black dark:hover:bg-purple-800 rounded text-lg">Send 📧 </button>
+          </div>
+         
+        </div>
+        </form>
+      </div>
+    </div>
+  </section>
       <footer className=' bg-slate-800 p-3 text-white text-xs'>
         © 2023 Shivam Konkar
       </footer>
