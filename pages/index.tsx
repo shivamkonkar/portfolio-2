@@ -52,7 +52,7 @@ const Home: NextPage = () => {
 
         <div>
         <div className='text-center m-2 '>Iam Shivam Konkar and Iam software developer :🧑‍💻</div>
-        <div className="grid grid-cols-2 gap-1 w-24 mx-auto my-7">
+        <div className="grid grid-cols-2 gap-1 w-24 mx-auto my-1">
             <a href="https://in.linkedin.com/in/shivam-konkar-96316a1b3">
               <img className='border border-black rounded-lg justify-self-center dark:border-white' src="https://img.icons8.com/color/48/null/linkedin.png" alt=''/>
             </a>
@@ -63,6 +63,9 @@ const Home: NextPage = () => {
 
            
           </div>
+          <a href="https://docs.google.com/document/d/1ol3rnAiDb_y1R562K_3nF1gZLA70vjOC/edit">
+              <h1 className='border border-black rounded-lg w-fit text-center mx-auto dark:border-white px-1 mb-7'>Resume 📰 </h1>
+          </a>
           </div>
       </div>
 
@@ -98,7 +101,7 @@ const Home: NextPage = () => {
               <section className="text-gray-600 body-font ">
     <div className="container px-5 py-24 mx-auto">
       <div className="flex flex-col text-center w-full mb-12">
-        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 dark:text-purple-400">Contact Us</h1>
+        <h1 className="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 dark:text-purple-400">Contact Me</h1>
         
       </div>
       <div className="lg:w-1/2 md:w-2/3 mx-auto">
