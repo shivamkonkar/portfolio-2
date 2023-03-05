@@ -110,19 +110,19 @@ const Home: NextPage = () => {
           <div className="p-2 w-1/2">
             <div className="">
               <label htmlFor="name" className="leading-7 text-sm text-gray-600 dark:text-purple-400">Name</label>
-              <input type="text" id="name" name="name" className="w-full bg-gray-100 dark:bg-[#121212] dark:focus:bg-slate-900 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 dark:text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" wtx-context="78CD4E24-5D56-413E-8068-87BDC02576E5"/>
+              <input type="text" id="name" name="name" className="w-full bg-gray-100 dark:bg-[#121212] dark:focus:bg-slate-900 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 dark:text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" wtx-context="78CD4E24-5D56-413E-8068-87BDC02576E5" required/>
             </div>
           </div>
           <div className="p-2 w-1/2">
             <div className="">
               <label htmlFor="email" className="leading-7 text-sm text-gray-600 dark:text-purple-400">Email</label>
-              <input type="email" id="email" name="email" className="w-full bg-gray-100 dark:bg-[#121212] dark:focus:bg-slate-900 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 dark:text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" wtx-context="E6B2C260-E36D-4131-8583-3334B0E4E897"/>
+              <input type="email" id="email" name="email" className="w-full bg-gray-100 dark:bg-[#121212] dark:focus:bg-slate-900 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 dark:text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" wtx-context="E6B2C260-E36D-4131-8583-3334B0E4E897" required/>
             </div>
           </div>
           <div className="p-2 w-full">
             <div className="">
               <label htmlFor="message" className="leading-7 text-sm text-gray-600 dark:text-purple-400">Message</label>
-              <textarea id="message" name="message" className="w-full bg-gray-100 dark:bg-[#121212] dark:focus:bg-slate-900 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 dark:text-white py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+              <textarea id="message" name="message" className="w-full bg-gray-100 dark:bg-[#121212] dark:focus:bg-slate-900 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 dark:text-white py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out" required></textarea>
             </div>
           </div>
           <div className="p-2 w-full">
