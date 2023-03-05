@@ -61,14 +61,7 @@ const Home: NextPage = () => {
               <img className='border border-black rounded-lg justify-self-center dark:border-white' src="https://img.icons8.com/color-glass/48/null/github--v1.png" alt=''/>
             </a>
 
-            <a href="https://www.instagram.com/bored_asf2023/?next=%2F">
-              <img className='border border-black rounded-lg justify-self-center dark:border-white' src="https://img.icons8.com/fluency/48/null/instagram-new.png" alt=''/>
-            </a>
-
-            <a href="https://twitter.com/ShivamKonkar">
-              <img className='border border-black rounded-lg justify-self-center dark:border-white' src="https://img.icons8.com/color/48/null/twitter--v1.png" alt=''/>
-            </a>
-
+           
           </div>
           </div>
       </div>
