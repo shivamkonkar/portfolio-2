@@ -51,7 +51,7 @@ const Home: NextPage = () => {
         <img className = "justify-center w-96 rounded-full   my-7 "src="/2.jpg" alt="" />
 
         <div>
-        <div className='text-center m-2 '>Iam Shivam Konkar and Iam software developer :🧑‍💻</div>
+        <div className='text-center m-2 '>I am Shivam Konkar and I am software developer :🧑‍💻</div>
         <div className="grid grid-cols-2 gap-1 w-24 mx-auto my-1">
             <a href="https://in.linkedin.com/in/shivam-konkar-96316a1b3">
               <img className='border border-black rounded-lg justify-self-center dark:border-white' src="https://img.icons8.com/color/48/null/linkedin.png" alt=''/>
@@ -63,7 +63,7 @@ const Home: NextPage = () => {
 
            
           </div>
-          <a href="https://drive.google.com/file/d/188wWnWXaRttXkOV2RXz715a-YHSljBl9/view?usp=share_link">
+          <a href="https://drive.google.com/file/d/1U-niZcRTudg6L45WY63LsYYjowzNl6hM/view?usp=share_link">
               <h1 className='border border-black rounded-lg w-fit text-center mx-auto dark:border-white px-1 mb-7'>Resume 📰 </h1>
           </a>
           </div>
