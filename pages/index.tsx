@@ -63,7 +63,7 @@ const Home: NextPage = () => {
 
            
           </div>
-          <a href="https://drive.google.com/file/d/1pub0bGI2LGkx2BCXggF1ed8kXPIRKt9y/view?usp=drive_link">
+          <a href="https://drive.google.com/file/d/1zvFb27rdoLuyHsDjhR_ycXsvfJ_ezbsf/view?usp=drive_link">
               <h1 className='border border-black rounded-lg w-fit text-center mx-auto dark:border-white px-1 mb-7'>Resume 📰 </h1>
           </a>
           </div>
