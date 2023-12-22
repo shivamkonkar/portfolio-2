@@ -46,13 +46,13 @@ const Home: NextPage = () => {
           </div>
 
       </nav>
-      <main className='p-8 container mx-auto'>
+      <main className='py-8 container mx-auto px-20'>
       <div className="grid grid-cols-1 gap-10 items-center justify-between sm:grid-cols-2 ">
-        <img className = "justify-center w-96 rounded-full   my-7 "src="/2.jpg" alt="" />
+        <img className = "justify-center w-96 rounded-full   my-7 "src="/3.png" alt="" />
 
         <div>
-        <div className='text-center m-2 '>I am Shivam Konkar and I am software developer :🧑‍💻</div>
-        <div className="grid grid-cols-2 gap-1 w-24 mx-auto my-1">
+        <div className='text-center m-2 my-4'>I am Shivam Konkar and I am software developer :🧑‍💻</div>
+        <div className="grid grid-cols-3 gap-1 w-24 mx-auto my-1">
             <a href="https://in.linkedin.com/in/shivam-konkar-96316a1b3">
               <img className='border border-black rounded-lg justify-self-center dark:border-white' src="https://img.icons8.com/color/48/null/linkedin.png" alt=''/>
             </a>
@@ -60,6 +60,11 @@ const Home: NextPage = () => {
             <a href="https://github.com/shivamkonkar">
               <img className='border border-black rounded-lg justify-self-center dark:border-white' src="https://img.icons8.com/color-glass/48/null/github--v1.png" alt=''/>
             </a>
+            <a href="https://leetcode.com/shivamkonkar25/">
+              <img className='border border-black rounded-lg justify-self-center dark:border-white' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFC0lEQVR4nNWZbUxbVRjHD2aTcSEMynipt/fc0vbeW95aSoHyFjAEQrYZJU7FaUCzTENmTLaZzIkkzMT4QTONGmMobWmhZNpyaYF9MdkHTdQYPxg/uExeRkVeSgkJM4zIOtZjrgaDcF/quMDln/w/nuf8/s99zu3LAWCP1GBVw5JCYommDIimdLH6UvwGOCgqMx6jGUq7zjA02uwTleqrQOmy5Gca+OA5lxbhYaBkWQsy9UZKe58PnnOVGb8FlAzPiMBzZ6HRituAElVKZelE4WkDqjFnvwmUKIY8qqUN4vB1ZdmXgRKVp00jJeGt6neAEpWvS4dS8LWWnPeAEmXJE+88w1Cos013HSHwCDh4naeQ41IRWgzWoMhQZXTBb/GgLnAIKEFmSoUzFBkV7jyNPrtY+Df8ZkfY8jth1lS4r/Bl+Zk5Rloc/tMLBdvg/3WgMrrEllTsC3xhblY2YyDvicF/fH5757eHqLg/5zPVKA7+k/PczFejSKAqJhUiwlZEl/0my57AUxoVzhhExoamUHtz7i9hX379xpqZgTyKO7iRoaoHgiGGKu4t+C2mfYXn3vMtjXiP0Pqw32rjQIVD2NbmfcX5uwKv02VniY0N96p8rkHTK1WH6/Iia1sTHKkh25+LrFUtO7yRhmti8C80Ed54680NWo0RDlQgxAJb8o288JQ4/EsnNF/837rcuYiwtlX+Q106Kwu8wZCSyVDiY3P2Seh72PrzXgu5OFS+si2A3xKQgz8hj4Z/iMG3N8Mdb7Q0asYX2PLwpu7/hrqt2I7pK0zq62Lw557WjgIZteCzVEa85mJZiqlUqlSa1seE4C88m/sVULKqzY8FReCV/19OHk3e5QvQ/Dh5GxwAJVCUgecrgh65OyhcanEwGMwfDQa+HRkORkeHg0g2BwOro8FAkGXZLFEAtTrDyNf9KgtckYJHCCWMBgO3ZAUf/q9HhgN+UYiMjIx6rZZEW328Gp+TCjA4MECxfh/aTQ/6fXdFITDscHFi4qNoq0+WpyxLBfD19KicPXbksHfvmnudjjUpjsOpKYnbAhRosVg8P8j7Pe6R3YJ39tiR19sn/ZcMpUmK8j2Ftoa0QcnFAIBrXm+Lt8/t9no9/bLZ4+nx+Tx18ewPqguSf+ILQOYcQe++fOwMULqMELPyjdHGKH1wJq0VKF21ppRJvgCcGZiErrRmKDuELhtkGfCkB0IhuCdxpTW9RY69JuyEc9oNV6fdcGXCAT8CcqmyILUpW8U/ShshOl9UPbOTPSadxHdhL4k2e8xBdsgWoliPtWWmHxEOkYvFuk5nND9M7SkH/HErPOcpJxECcsqqx86KhtBiscun0p6Itx73eTLpIH7mgw//E0D+a6cyCntFKsQbp9KPS8J3gUNTLuKmEPx8P4nGuvGTYDdk1mOvZqYJhyjKxWKXTqc3icGHXHBMFN5JvA12U1YmqV3sSZj1WOzr94mLW9eNO0hLyAUXROHtsBPshWzGlHNiIXwdajTjgWshJzE95dJMTvcSd8L9/OBhzv0kmnAQe3vtVG5Mfk0ohO+tHGHYrZ33kmjcDvfn2qmCSX59awitOgmFXDBu+EkX/BDspxpLU58vY5LX01MTUZ0pBX1/FY8LftZDxsbtuDLuiW93645OOuAPc31kLB74UC/8fcyhqQVK083PcWrcofky5IJzMx4iOtsHY9zbZcYN16fdxPKEk7jxq514Su6N/wLrjQ0wbbQFOwAAAABJRU5ErkJggg==" alt=''/>
+            </a>
+            
+
 
            
           </div>
@@ -69,31 +74,7 @@ const Home: NextPage = () => {
           </div>
       </div>
 
-      <div className="container mx-auto bg-slate-500 pt-3 pb-6 rounded-lg text-xl font-semibold text-white dark:bg-purple-700 dark:text-black">
-        <h2 className='text-center m-2 p-2 '>Technologies I can use</h2>
-        <div className='technologies grid grid-cols-2 gap-10 items-center sm:grid-cols-3 '>
-          <div className="javascript border border-white rounded-lg justify-self-center">
-            <img src="https://img.icons8.com/color/48/null/javascript--v1.png" alt="" />
-          </div>
-          <div className="python border border-white rounded-lg justify-self-center">
-            <img src="https://img.icons8.com/color/48/null/python--v1.png" alt=''/>
-          </div>
-          <div className='java border border-white rounded-lg justify-self-center'>
-            <img src="https://img.icons8.com/fluency/48/null/java-coffee-cup-logo.png" alt=''/>
-          </div>
-          <div className="c border border-white rounded-lg justify-self-center">
-            <img src="https://img.icons8.com/fluency/48/null/c-plus-plus-logo.png" alt=''/>
-          </div>
-          <div className="html border border-white rounded-lg justify-self-center">
-            <img src="https://img.icons8.com/color/48/null/html-5--v1.png" alt=''/>
-          </div>
-          <div className="dbms border border-white rounded-lg justify-self-center">
-           <img src="https://img.icons8.com/color/48/null/mongodb.png" alt=''/>
-          </div>
-
-
-      </div>
-      </div>
+      
 
       
         
